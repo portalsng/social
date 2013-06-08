@@ -1,0 +1,27 @@
+Note: This file will hold several Possible ideas and projects that we shall do. Each Case Description is a possible Web Projects we 
+shall do. Please keep all program "KISS" - Keep It Simple Stupid
+
+@CodeName: iDevHub
+@DateCreate: 8th June 2013
+
+
+Description Case 1: (A Mini-ATM Banking System)
+================================================
+- The user enters card number and pin (specific card number range and pin)
+- A security database check is performed to check authenticity of card/pin (more like login) and to check if account is available
+- User is verified and provided Account Details which include:
+	- Total Balance of all account
+	- List of Accounts (Current, Savings, Petty, Retirement, Business) are provided
+	- A Profile link to change account details is provided
+	- A logout link is made available which redirects to login screen
+- User can transfer fund to any selected accounts (if funds are available)
+- Security can provide receipts of transfered funds
+
+Test for Failed Conclusion
+**************************
+1. Invalid Card
+2. Invalid PIN
+3. Customer Insufficient Funds
+4. ATM Insufficient Funds
+5. Over Daily Limit
+6. Stolen Card
